@@ -1,0 +1,370 @@
+/*This section covers the HOMEPAGE CSS*/
+
+@import url('http://fonts.googleapis.com/css?family=Open Sans');
+
+*{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal; 
+}
+
+.call-action{
+	background: #fbfbfb;
+	box-shadow: 0px 0px 5px #565656;
+	border-radius: 2px;
+	margin-top: 100px;
+	padding: 10px;
+	opacity: 0.65;
+	font-family: 'Open Sans', sans-serif; 
+}
+
+h2, h4, a, .banner-list{   
+	font-family: 'Open Sans', sans-serif; 
+	line-height: 1.5em;
+	
+}
+
+h2{
+	font-size: 1.7em;
+}
+
+.banner-list{
+	list-style: none;
+	font-size: 1.3em;
+	padding-left: 0px;
+}
+
+.navbar { 
+	box-shadow: 0px 0px 5px #565656;
+	padding-top: 10px;
+	height: 70px;
+	border-bottom: 1px .4 solid #434343;
+	font-size: 1.4em;
+	background: #ffffff;
+}
+
+
+.navbar ul li a { 
+	margin-top: -10px;
+	padding: 25px 15px; 
+	/*padding-bottom: 10px; */
+}
+
+.navbar-brand{
+	font-size: 1.1em;
+}
+
+.log a{ 
+	background: #5ca2de;
+	font-weight: bold;
+	color: #f0f0f0;
+}
+
+.log a:hover{
+	background: #fff;      
+	border-radius: 0;
+	color: #434343;
+	text-decoration: none;
+}
+.slider-text-lg{
+	color: #ffffff;
+	font-size: 2em;
+	font-weight: bold;
+	text-shadow: 1px 1px #000000;
+}
+.slider-text-sm{
+	color: #ffffff;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+.branding1, .branding2, .branding3{
+	background: url('../img/hands.jpg') no-repeat center center; 
+	height: 630px;
+	z-index: -10000; 
+}
+/*.branding2{
+	background: url('../img/hands.jpg') no-repeat center center;
+	height: 630px;
+	z-index: -10000; 
+}
+.branding3{
+	background: url('../img/hands.jpg') no-repeat center center;
+	height: 630px;
+	z-index: -10000; 
+}*/
+.sliding{
+	padding-top: 100px;
+}
+.branding1 .btn{
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px #565656;
+}
+.branding2 .btn{
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px #565656;
+}
+.branding3 .btn{
+	border-radius: 2px;
+	box-shadow: 1px 1px 1px #565656;
+}
+.content{
+	padding-top: 200px;
+}
+.contentLogin{
+	padding-top: 100px;
+}
+.create{
+    padding-top: 100px;	
+}
+
+.three-p{
+	font-size: 2em;
+	position: relative; 
+}
+
+.tagline{
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+.tagline-icon{
+	font-size: 1.5em;
+	color:#5ca2de;
+	margin-top: 80px;
+	position: relative; 
+}
+
+hr{
+	margin-left: 90px;
+	margin-right: 90px; 
+	border: 3px 3px 1px 0px #565656;
+}
+.message{ 
+	padding:10px; 
+	border-radius: 3px; 
+}
+
+.message a:hover{
+	text-decoration: none;
+
+}
+
+.icon-4x{
+	font-size: 6em; 
+}
+
+.options{
+	background: #ffffff;
+	padding: 20px; 
+	box-shadow: inset 0px 0px 5px #a09d96;
+}
+.options  .btn{
+	border-radius: 0px;
+}
+.options .btn-text-size{
+	font-size: 1.5em;
+}
+
+.partners li{
+	margin-left:70px;
+	color:#5ca2de;
+}
+
+.foot{
+	height: 90px;
+	font-size: 1.2em;
+	padding-top: 25px;
+	box-shadow: 1px 0 5px #565656;
+}
+
+/*This section covers the DISCOVER PAGE CSS*/
+
+/* Removes the default 20px margin and creates some padding space for the indicators and controls */
+.spliter{
+	margin-top: 70px;
+}
+
+.carousell {
+    margin-bottom: 0;
+	padding: 0 40px 30px 40px;
+}
+/* Reposition the controls slightly */
+.carousel-control {
+	left: -12px;
+}
+.carousel-control.right {
+	right: -12px;
+}
+/* Changes the position of the indicators */
+.carousel-indicators {
+	right: 50%;
+	top: auto;
+	bottom: 0px;
+	margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.carousel-indicators li {
+	background: #c0c0c0;
+}
+.carousel-indicators .active {
+background: #333333;
+}
+
+
+
+
+/*CSS for LOGIN Page*/
+/*CSS for LOGIN Page*/
+/*CSS for LOGIN Page*/
+.form-signin
+{
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+.form-signin .form-signin-heading, .form-signin .checkbox
+{
+    margin-bottom: 10px;
+}
+.form-signin .checkbox
+{
+    font-weight: normal;
+}
+.form-signin .form-control
+{
+    position: relative;
+    font-size: 16px;
+    height: auto;
+    padding: 10px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.form-signin .form-control:focus
+{
+    z-index: 2;
+}
+.form-signin input[type="text"]
+{
+    margin-bottom: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin select[type="dropdown"]
+{
+    margin-bottom: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+.form-signin input[type="password"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-signin input[type="number"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-signin input[type="date"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-signin input[type="file"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.form-signin textarea[type="text"]
+{
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+.account-wall
+{
+    margin-top: 20px;
+    padding: 40px 0px 20px 0px;
+    background-color: #f7f7f7;
+    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.3);
+}
+.login-title
+{
+    color: #555;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+}
+.profile-img
+{
+    width: 96px;
+    height: 96px;
+    margin: 0 auto 10px;
+    display: block;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+}
+.need-help
+{
+    margin-top: 10px;
+}
+.new-account
+{
+    display: block;
+    margin-top: 10px;
+}
+
+/*CSS for REGISTER page*/
+/*CSS for REGISTER page*/
+/*CSS for REGISTER page*/
+/*CSS for REGISTER page*/
+
+.banner-pad{
+	margin-top: 10em; 
+}
+
+/*CSS for CREATE page*/
+/*CSS for CREATE page*/
+/*CSS for CREATE page*/
+.form-create
+{
+    max-width: 430px;
+    padding: 0px;
+    margin: 0 auto;
+}
+
+/*CSS for STATISTICS tab*/
+.widget{
+	background: #fbfbfb;
+	border-radius: 2px; 
+	box-shadow: 0px 0px 5px #565656; 
+	opacity: 0.65;
+	height: 300px;
+}
+
+.widget-header{
+	background-color:;
+	padding-left: 10px;	
+	box-shadow: 0px 0px 5px #565656; 
+	margin-top: 20px;
+	padding: 5px; 
+
+}
+
+ .wid-value{
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.wid-icon{
+	
+}
+

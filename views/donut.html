@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>donuts - by Mattia Larentis</title>
+    <meta name="author" content="Mattia Larentis">
+    <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8;" />
+
+    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/bootstrap.css">
+    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/css/docs.css">
+    <link rel="stylesheet" href="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.css">
+    <link rel="stylesheet" href="static/stylesheets/donuts.css" />
+
+    <style>
+        h1 {
+            margin-bottom: 20px;
+            text-align: center;
+        }
+
+        h3 {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://github.com/nostalgiaz/donuts"><img
+        style="position: absolute; top: 0; right: 0; border: 0;"
+        src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png"
+        alt="Fork me on GitHub"></a>
+
+    <div class="container">
+        <div class="row-fluid">
+            <div class="span12">
+                <h1>Donuts
+                    <small>- by <a href="http://larentis.eu">Mattia Larentis</a> <a href="https://twitter.com/spiritualguru">(@SpiritualGuru)</a>
+                    </small>
+                </h1>
+            </div>
+        </div>
+
+        <div class="row-fluid">
+            <div class="span8 offset2" style="text-align: center;">
+                <iframe src="http://ghbtns.com/github-btn.html?user=nostalgiaz&repo=donuts&type=watch&count=true"
+                        allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+                <iframe src="http://ghbtns.com/github-btn.html?user=nostalgiaz&repo=donuts&type=fork&count=true"
+                        allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+                <iframe src="http://ghbtns.com/github-btn.html?user=nostalgiaz&type=follow&count=true"
+                        allowtransparency="true" frameborder="0" scrolling="0" width="170" height="30"></iframe>
+            </div>
+        </div>
+
+        <div class="row-fluid">
+
+            <div class="span12">
+                <h3>Donuts</h3>
+                <div class="bs-docs-example">
+                    <div class="donut donut-big">
+                        <div class="donut-arrow" data-percentage="10"></div>
+                    </div>
+                    <div class="donut">
+                        <div class="donut-arrow" data-percentage="30"></div>
+                    </div>
+                    <div class="donut donut">
+                        <div class="donut-arrow" data-percentage="60"></div>
+                    </div>
+                    <div class="donut donut-small">
+                        <div class="donut-arrow" data-percentage="90"></div>
+                    </div>
+                </div>
+                <pre class="prettyprint linenums">
+&lt;div class="donut donut-big">
+    &lt;div class="donut-arrow" data-percentage="10">&lt;/div>
+&lt;/div>
+&lt;div class="donut">
+    &lt;div class="donut-arrow" data-percentage="30">&lt;/div>
+&lt;/div>
+&lt;div class="donut donut">
+    &lt;div class="donut-arrow" data-percentage="60">&lt;/div>
+&lt;/div>
+&lt;div class="donut donut-small">
+    &lt;div class="donut-arrow" data-percentage="90">&lt;/div>
+&lt;/div></pre>
+            </div>
+        </div>
+        <div class="row-fluid">
+            <div class="span12">
+                <div class="bs-docs-example">
+                    <div id="myDonut" class="donut donut-big">
+                        <div class="donut-arrow" data-percentage="10"></div>
+                    </div>
+                    <div id="myButton" class="btn btn-danger" style="margin-left: 10px">Update percentage</div>
+                </div>
+                <pre class="prettyprint linenums">
+$('#myButton').on('click', function () {
+   $('#myDonut').find('.donut-arrow').trigger('updatePercentage', Math.floor((Math.random()*100)))
+});</pre>
+            </div>
+        </div>
+    </div>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://twitter.github.com/bootstrap/assets/js/google-code-prettify/prettify.js"></script>
+    <script src="static/js/donuts.js"></script>
+    <script>
+        window.prettyPrint && prettyPrint();
+        $(function () {
+            $('#myButton').on('click', function () {
+               $('#myDonut').find('.donut-arrow').trigger('updatePercentage', Math.floor((Math.random()*100)))
+            });
+        });
+    </script>
+</body>
+</html>
